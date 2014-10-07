@@ -1,0 +1,21 @@
+---
+- name: 大手町
+  line: 千代田線
+  odpt_line: odpt.Railway:TokyoMetro.Chiyoda
+  odpt_name: odpt.Station:TokyoMetro.Chiyoda.Otemachi
+- name: 大手町
+  line: 東西線
+  odpt_line: odpt.Railway:TokyoMetro.Tozai
+  odpt_name: odpt.Station:TokyoMetro.Tozai.Otemachi
+- name: 大手町
+  line: 丸ノ内線
+  odpt_line: odpt.Railway:TokyoMetro.Marunouchi
+  odpt_name: odpt.Station:TokyoMetro.Marunouchi.Otemachi
+- name: 大手町
+  line: 半蔵門線
+  odpt_line: odpt.Railway:TokyoMetro.Hanzomon
+  odpt_name: odpt.Station:TokyoMetro.Hanzomon.Otemachi
+- name: 東京
+  line: 丸ノ内線
+  odpt_line: odpt.Railway:TokyoMetro.Marunouchi
+  odpt_name: odpt.Station:TokyoMetro.Marunouchi.Tokyo

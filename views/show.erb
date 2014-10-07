@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf8">
+  </head>
+  <body>
+    <h1>sample1 検索結果</h1>
+    <table>
+      <thead>
+        <tr><th>駅名</th><th>路線名</th><th>時刻</th><th>行き先</th></tr>
+      </thead>
+      <tbody>
+        <% @results.each do |result| %>
+          <tr>
+            <td><%= result["name"] %></td>
+            <td><%= result["line_name"] %></td>
+            <td><%= result["time"] %></td>
+            <td><%= result["dest"] %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+  </body>
+</html>
